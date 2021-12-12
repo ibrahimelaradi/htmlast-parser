@@ -1,5 +1,5 @@
 {
-	"name": "html-parser",
+	"name": "htmlast-parser",
 	"version": "0.1.0",
 	"description": "A module that parses HTML to AST",
 	"main": "dist/index.js",
