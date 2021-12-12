@@ -1,6 +1,6 @@
 {
 	"name": "@ibrahimelaradi/htmlast-parser",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "A module that parses HTML to AST",
 	"main": "dist/index.js",
 	"repository": {
@@ -17,8 +17,7 @@
 		"build": "tsc",
 		"test": "jest",
 		"lint": "eslint .",
-		"prepare": "husky install",
-		"postinstall": "npm run prepare"
+		"prepare": "husky install"
 	},
 	"devDependencies": {
 		"@types/jest": "^27.0.3",
