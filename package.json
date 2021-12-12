@@ -1,0 +1,35 @@
+{
+	"name": "html-parser",
+	"version": "0.1.0",
+	"description": "A module that parses HTML to AST",
+	"main": "dist/index.js",
+	"repository": {
+		"url": "https://github.com/ibrahimelaradi/htmlast-parser.git",
+		"type": "git"
+	},
+	"author": {
+		"name": "Ibrahim Elaradi",
+		"email": "ibrahimelaradi@gmail.com",
+		"url": "https://ibrahimelaradi.dev"
+	},
+	"license": "MIT",
+	"scripts": {
+		"build": "tsc",
+		"test": "jest",
+		"lint": "eslint .",
+		"prepare": "husky install",
+		"postinstall": "npm run prepare"
+	},
+	"devDependencies": {
+		"@types/jest": "^27.0.3",
+		"@typescript-eslint/eslint-plugin": "^5.6.0",
+		"@typescript-eslint/parser": "^5.6.0",
+		"eslint": "^8.4.1",
+		"eslint-config-prettier": "^8.3.0",
+		"husky": "^7.0.4",
+		"jest": "^27.4.4",
+		"ts-jest": "^27.1.1",
+		"ts-node": "^10.4.0",
+		"typescript": "^4.5.3"
+	}
+}
