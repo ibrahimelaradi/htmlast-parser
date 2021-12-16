@@ -1,6 +1,6 @@
 {
 	"name": "@ibrahimelaradi/htmlast-parser",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"description": "A module that parses HTML to AST",
 	"main": "dist/index.js",
 	"repository": {
